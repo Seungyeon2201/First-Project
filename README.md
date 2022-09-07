@@ -2,7 +2,7 @@
 
 작성자 | 장르 
 ---|---
-김승연| 3인칭 FPS |
+김승연| TPS |
 ---------
 * 스토리
 #### [스토리 참고](https://gall.dcinside.com/board/view/?id=hit&no=14141)
