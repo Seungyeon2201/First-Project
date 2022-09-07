@@ -16,12 +16,13 @@
       { Idle, Move, Run, RangedAttack, MeleeAttack, Jump, Hit, Sit, Aiming  }
     * List를 이용한 Inventory 구현
     * Aiming시 1인칭 시점으로 변환하여 정밀 조준이 가능하게 구현
-    * 카메라 구현은 숄더뷰로 하고 Free Look Camera의 Collider를 구현하여 캐릭터가 가려지는 현상을 방지
+    * 카메라 구현은 숄더뷰(백뷰)로 하고 Free Look Camera의 Collider를 구현하여 캐릭터가 가려지는 현상 방지
   * NPC 
   
     - 구간별로 NPC를 배치해 각 NPC마다 기록 조각 획득
     - Scriptable Object를 이용하여 NPC에게 퀘스트를 받고 연구실에 잠입하고 유기체에 잠입
-    - NPC 위치 별로 Scriptable Object를 이용한 Spawn 지역 저장 
+    - NPC 위치 별로 Scriptable Object를 이용한 Spawn 지역 저장
+    - Player가 접근시 Particle 실행
   
   * Enemy(FSM을 이용해서 구현)
     - 원거리 공격 : 맞았을 때나 주변에 소리가 범위 내에 인식되면 소리나는 쪽으로 방향 전환하고 Player 탐지시 Player 좌표를 중심으로 특정 범위에 공격
@@ -29,6 +30,9 @@
   * Item
   
      - NPC 기록(NPC의 숫자만큼 모두 모아야 최종 컨텐츠 진입가능)
+  * 추가 사항
+     - 총기 다양화
+     - Enemy 패턴 다양화      
      
   
     
