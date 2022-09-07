@@ -15,6 +15,8 @@
       
       { Idle, Move, Run, RangedAttack, MeleeAttack, Jump, Hit, Sit, Aiming  }
     * List를 이용한 Inventory 구현
+    * Aiming시 1인칭 시점으로 변환하여 정밀 조준이 가능하게 구현
+    * 카메라 구현은 숄더뷰로 하고 Free Look Camera의 Collider를 구현하여 캐릭터가 가려지는 현상을 방지
   * NPC 
   
     - 구간별로 NPC를 배치해 각 NPC마다 기록 조각 획득
